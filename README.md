@@ -11,20 +11,20 @@ This API accepts POST requests with a phone number and an amount, and returns a 
 ```http
 POST https://payment-mock-up-api.vercel.app/stk-push
 
-✅ Request Body
+### ✅ Request Body
 
 {
   "phone": "0712345678",
   "amount": 500
 }
 
-✅ Response
+### ✅ Response
 
 {
   "status": "success",
   "message": "STK Push initiated for 0712345678 of amount 500"
 }
 
-👨‍💻 Contributing
+### 👨‍💻 Contributing
 
 Feel free to open issues or submit pull requests for improvements or bug fixes.
