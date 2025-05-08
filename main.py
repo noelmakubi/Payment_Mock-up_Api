@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({"message": "Welcome to the STK Push API"}), 200
+
 @app.route('/stk-push/', methods=['POST'])
 def stk_push():
     data = request.get_json()
