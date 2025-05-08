@@ -1,4 +1,4 @@
-# 💳 Payment Mock-Up API
+# 💳 Mobile Money Payment Mock-Up API
 
 A simple mock STK Push payment API using Python, designed to be deployed on [Vercel](https://vercel.com) as a serverless function.
 
